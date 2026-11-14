@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/test', function () {
-    return 'Laravel Cloud Deployment Successful!';
+    return view('test');
 });
